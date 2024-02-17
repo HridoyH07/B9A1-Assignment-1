@@ -14,14 +14,6 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-
-/* .container {
-    width: 82.5%;
-    max-width: 1320px;
-    margin: 0 auto;
-    padding-bottom: 120px;
-} */
-
 p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -39,7 +31,7 @@ p {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner Image.png");
     border-radius: 16px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding: 200px 0;
     margin: 50px auto;
     position: static;
@@ -333,7 +325,7 @@ p {
 
 .subscribe_contant {
     text-align: center;
-    padding: 40px 60px;
+    padding: 50px 40px;
 }
 
 .subscribe_contant h2 {
@@ -383,7 +375,7 @@ p {
 
 .footer {
     height: 70vh;
-    background-color: wheat;
+    background-color: rgb(0, 0, 0);
     margin-top: 80px;
     padding-top: 90px;
 }
@@ -407,4 +399,8 @@ p {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+footer p {
+    color: #FFF;
 }
