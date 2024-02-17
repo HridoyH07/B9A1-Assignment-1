@@ -147,3 +147,264 @@ p {
     padding: 90px 0px 0px 70px;
     margin-left: 30px;
 }
+
+.vectory_party_time {
+    background-image: linear-gradient(rgba(202, 55, 55, 0.493), rgba(255, 72, 0, 0.027));
+    border-radius: 8px;
+    margin-bottom: 70px;
+}
+
+.vectory_contant {
+    padding: 100px 300px;
+    text-align: center;
+}
+
+.vectory_contant p {
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 60px;
+    font-family: 'Inter', sans-serif;
+}
+
+.vectory_contant>p span {
+    color: #F00;
+    font-size: 32px;
+}
+
+.vectory_contant>button {
+    background-color: #F00;
+}
+
+.comming_soon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.comming_soon_content {
+    padding-top: 30px;
+}
+
+.beat_offer {
+    font-size: 24px;
+    color: #F00;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.comming_soon_content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.comming_soon_des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.comming_soon_img img {
+    border: 5px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.comming_soom_second_contant {
+    padding-left: 10px;
+}
+
+.comming_soom_second_contant h1 {
+    padding-top: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F00;
+}
+
+.comming_soom_second_contant p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.holiday_sale {
+    text-align: center;
+}
+
+.holiday_sale>h5 {
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.holiday_sale h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday_sale>h1 span {
+    color: #F00;
+}
+
+.holiday_sale p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.discount_img {
+    position: relative;
+    bottom: 100px;
+    display: grid;
+    margin-top: -200px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.win-box {
+    position: relative;
+    top: 325px;
+}
+
+.fifty_per {
+    position: relative;
+    right: 590px;
+    top: 400px;
+}
+
+.sopping_per {
+    position: relative;
+    left: 50px;
+    top: 330px;
+}
+
+.red_color img {
+    width: 100%;
+}
+
+.gift {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.gift h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+.gift h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.gift p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.gifts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gifts>div img {
+    width: 100%;
+}
+
+.gifts>div img:hover {
+    border: 4px solid rgb(39, 10, 255);
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgb(19, 195, 174);
+}
+
+.Subscribe {
+    background-color: #fff2f2;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+.subscribe_contant {
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.subscribe_contant h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe_contant p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.custom_search {
+    width: 400px;
+    position: relative;
+    left: 400px;
+}
+
+.surch-email {
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 90px;
+    padding: 20px 200px 20px 20px;
+    line-height: 1;
+    outline: none;
+}
+
+.sub-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border: none;
+    background-color: #F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 7px 29px;
+    border-radius: 100px;
+    z-index: 2;
+}
+
+
+/* ------------------------------ */
+
+.footer {
+    height: 70vh;
+    background-color: wheat;
+    margin-top: 80px;
+    padding-top: 90px;
+}
+
+.contact {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social_mideas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.copyRight {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
